@@ -4,7 +4,7 @@ import { Li } from '../../UI/Li/Li'
 /*----------------- icons ------------------*/ 
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-/*------------------------------------------*/
+
 export const NavHome = () => {
   return (
     <nav>
@@ -16,8 +16,8 @@ export const NavHome = () => {
             <FontAwesomeIcon icon={faBars}/>
         </label>
         <ul className='navMenu'>
-            <Li href='#' text='incio sesion'></Li>
-            <Li href='#' text='registro'></Li>
+          <Li href='/'  text='registro'></Li>
+          <Li href='/inicio' text='incio sesion'></Li>
         </ul>
     </nav>
   )
