@@ -49,6 +49,7 @@ nav{
     text-decoration: none;
     text-transform: uppercase; 
     font-weight: 500px;
+    cursor: pointer;
 }
 
 .navMenu li a.active , .navMenu li a:hover{
@@ -80,7 +81,7 @@ main{
 }
 
 
-form{
+.form{
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -171,3 +172,37 @@ button:hover{
     background-color: transparent;
 }
 
+/*---------------------------------------------------------*/
+/*-----------------------registro-------------------------*/
+
+.contentInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+}
+
+.contentTitle{
+    text-align: center;
+}
+
+.contentLine{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(95, 87, 87, 0.305);
+    margin: 10px;
+    padding: 20px;
+}
+
+.color_text{
+    color: #fff;
+    width: 40%;
+}
+
+.color_subti{
+    color: rgb(171, 85, 85);
+    width: 40%;
+    text-decoration: underline;
+    font-size: 20px;
+}
